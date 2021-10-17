@@ -9,6 +9,13 @@ body{
     margin-right:auto;
 }
 
+.splitbox{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
 .grid {
     display: grid;
     widows: 90%;
@@ -28,10 +35,6 @@ body{
     border: solid black 1px;
 }
 
-.splitbox{
-    border-radius: 10px;
-}
-
 #leftbox img{
     width: 100%;
     height: auto;
@@ -39,6 +42,7 @@ body{
 
 #grid1{
     background-color: blue;
+    border-top-left-radius: 50%;
 }
 
 #grid2{
@@ -47,32 +51,162 @@ body{
 
 #grid3{
     background-color: blue;
+    border-radius: 50%;
 }
 
 #grid4{
     background-color: blue;
+    border-radius: 50%;
 }
 
 #grid5{
-    
+    border-top-right-radius: 50%;
 }
 
 #grid6{
+    border-bottom-right-radius: 50%; 
     background-color: blue;
 }
 
 #grid7{
-    background-color: blue;
+    border-bottom-left-radius: 50%;
+    background-color:  blue;
 }
 
 #grid8{
-    
+    border-radius: 50%;
 }
 
 #grid9{
     background-color: blue;
+    border-bottom-right-radius: 50%;
 }
 
 .gridbox{
     box-shadow: 5px 5px black;
+}
+
+#header{
+    margin-bottom: 20px;
+    padding-top: 4px;
+    background-color: white;
+}
+
+#header * img {
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.buttons button{
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+
+#try{
+    color: white;
+    background: blue;
+}
+
+#leftbox{
+
+    
+}
+
+
+
+
+#leftbox{
+    display:flex;
+    padding:0;
+    border-top: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#rightbox{
+    padding-top:80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#leftbox img{
+    padding:0;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    object-fit: cover;
+}
+
+#sect2{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sect3{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.blue{
+    background-color: blue;
+}
+
+#sect3 div{
+    display:flex;
+    flex-direction:column;
+    width: 15%;
+    border: solid grey 1px;
+}
+
+#sect3 div img{
+    width: 60%;
+    height: auto;
+    align-self: center;
+}
+
+#sect3 div p{
+    justify-self: flex-end;
+    position: relative;
+    bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anothergrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.anothergrid div{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.anothergrid div{
+    align
 }

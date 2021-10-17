@@ -8,24 +8,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <title>Title</title>
 </head>
 <body>
     <div class="container">
         <div id='header' class="row sticky-top">
-            <div class="col-2">
-                <div class="col-2"><img></div>
+            <div class="col-4 col-md-2">
+                <img src="./CRM-Main/Logo-1.png" alt="DoubleTap">
             </div>
-            <nav class="nav col-7">
+            <nav class="nav col-8 col-md-7">
                 <a href="#" class='nav-link'>Home</a>
                 <a href="#" class='nav-link'>Features</a>
                 <a href="#" class='nav-link'>Pricing</a>
                 <a href="#" class='nav-link'>How It Works</a>
                 <a href="#" class='nav-link'>Support</a>
             </nav>
-            <div class="col-3">
-                <button type='button' class='btn'>Sign In</button>
-                <button>Try It Free</button>
+            <div class="col-5 col-md-3 buttons">
+                <button type='button' class='btn' id='signin'>Sign In</button>
+                <button type='button' class='btn' id='try'>Try It Free</button>
             </div>
         </div>
         <div class="main">
@@ -72,38 +73,95 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-12 text-center">
+                <div id='sect2' class="col-12 text-center">
                     <h1>Start to Explore Double Tap</h1>
                     <h6>A new and better way for small businesses to manage their bustomer base, payments and keep track of internal tasks.</h6>
                 </div>
             </div>
-            <div class='d-flex flex-row db-highlight mb-3 justify-content-around'>
-                <div class="d-inline-flex p-2 bd-highlight icon">
-                    <i></i>
+            <div id='sect3' class='d-flex flex-row db-highlight mb-3 justify-content-around'>
+                <div class="d-inline-flex p-2 bd-highlight icon blue">
+                    <img src='./CRM-Main/dollar.png'></img>
                     <p>Payments</p>
                 </div>
                 <div class="d-inline-flex p-2 bd-highlight icon">
-                    <i></i>
+                    <img src='./CRM-Main/user.png'></img>
                     <p>Retain</p>
                 </div>
                 <div class="d-inline-flex p-2 bd-highlight icon">
-                    <i></i>
+                    <img src='./CRM-Main/layer1.png'></img>
                     <p>Reporting</p>
                 </div>
-                <div id='icon' class="d-inline-flex p-2 bd-highlight">
-                    <i></i>
+                <div class="d-inline-flex p-2 bd-highlight icon">
+                    <img src='./CRM-Main/upanddown opposite sidebyside updown directions two arrows@2x.png'></img>
                     <p>Convert</p>
                 </div>
             </div>
-            <div class="row splitbox">
+            <div class="d-flex flex-row db-highlight mb-3 justify-content-center splitbox">
                 <div id='leftbox' class="col-4"><img src="./CRM-Main/credit-card-picture.png" alt=""></div>
                 <div id='rightbox' class='col-8 text-left'>
-                    <h1>Start accepting Payments with Ease</h1>
-                    <h3>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your prouducts and services.</h3>
+                    <h3>Start accepting Payments with Ease</h1>
+                    <h5>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your prouducts and services.</h3>
+                    <p>-Accept credit & debit cards, Paypal, ACH, Apple pay and more with the flick of a switch</p>
+                    <p>-Process Transactions in up to 32 different currencies.</p>
+                    <p>-integrate with popular payment gateways like Stripe and Braintree</p>
+                    <p>-Select from a variety of different checkout options and experiences</p>
+
+                </div>
+            </div>
+            <div id='sect5' class='d-flex flex-row db-highlight mb-3 justify-content-around text-center'>
+                <h1>Solutions to fit your Business Needs</h1>
+            </div>
+            <div id='sect5' class='d-flex flex-row db-highlight mb-3 justify-content-around text-center'></div>
+                <div class='col-12 anothergrid' >
+                    <div>
+                        <i class="bi bi-laptop"></i>
+                        <H3>Email Dashboards</H3>
+                        <p>Automate client responses, and keep track of any communication your team has with a client</p>
+                        <button>Learn More</button>
+
+                    </div>
+                    <div>
+                        <i class="bi bi-check2-square"></i>
+                        <H3>Task Management</H3>
+                        <p>Automate client responses, and keep track of any communication your team has with a client</p>
+                        <button>Learn More</button>
+                    </div>
+                    <div>
+                        <i class="bi bi-bar-chart"></i>
+                        <H3>Analytics</H3>
+                        <p>Automate client responses, and keep track of any communication your team has with a client</p>
+                        <button>Learn More</button>
+                    </div>
+                    <div>
+                        <i class="bi bi-calendar-date"></i>
+                        <H3>Project Calendars</H3>
+                        <p>Automate client responses, and keep track of any communication your team has with a client</p>
+                        <button>Learn More</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Try Double Tap Today!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col12"><h6>Let's Get Started!</h6></div>
+            </div>
+            <div class="row">
+                <div class="col6">
+                    <button>Get Started</button>
+                </div>
+                <div class="col6">Chat With Us</div>
+            </div>
+            <div class="row">
+                <div class="col4"></div>
+                <div class="col4"></div>
+                <div class="col4"></div>
+            </div>
+        </div>
     </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>

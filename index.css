@@ -1,0 +1,78 @@
+body{
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.grid {
+    display: grid;
+    widows: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+.grid div {
+    width: 100%;
+    padding-top: 100%
+  }
+
+#iconbox{
+    background-color: blue;
+    border: solid black 1px;
+}
+
+.splitbox{
+    border-radius: 10px;
+}
+
+#leftbox img{
+    width: 100%;
+    height: auto;
+}
+
+#grid1{
+    background-color: blue;
+}
+
+#grid2{
+    
+}
+
+#grid3{
+    background-color: blue;
+}
+
+#grid4{
+    background-color: blue;
+}
+
+#grid5{
+    
+}
+
+#grid6{
+    background-color: blue;
+}
+
+#grid7{
+    background-color: blue;
+}
+
+#grid8{
+    
+}
+
+#grid9{
+    background-color: blue;
+}
+
+.gridbox{
+    box-shadow: 5px 5px black;
+}
